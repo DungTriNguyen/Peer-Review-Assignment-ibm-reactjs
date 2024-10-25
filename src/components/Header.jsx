@@ -1,6 +1,7 @@
 import { MegaMenu, Navbar } from "flowbite-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons"; // Nhập biểu tượng ở đây
+import logo from "../assets/logo.png";
 
 export default function Header() {
   return (
@@ -8,7 +9,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <MegaMenu className="flex justify-between items-center py-4">
           <Navbar.Brand className="flex items-center space-x-4">
-            <img src="../assets/logo.png" className="h-10" alt="Company Logo" />
+            <img src={logo} className="h-10" alt="Company Logo" />
             <span className="text-xl font-bold text-teal-600">DD8 COMPANY</span>
           </Navbar.Brand>
 
