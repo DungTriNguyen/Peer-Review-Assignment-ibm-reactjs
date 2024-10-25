@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import section from "../assets/section.jpg";
 
 const LandingPage = () => {
   return (
     <div
       className="landing-page flex flex-col items-center justify-center min-h-screen bg-cover bg-center"
-      style={{ backgroundImage: "url('path/to/your/background.jpg')" }}
+      style={{ backgroundImage: `url(${section})` }} // Use imported image
     >
       <h1 className="text-4xl font-bold text-white mb-4">Nguyen Tri Dung</h1>
       <p className="text-lg text-white mb-8 text-center max-w-md">

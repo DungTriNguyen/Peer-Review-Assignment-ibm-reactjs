@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <Provider store={store}>
-      <BrowserRouter>
+      <BrowserRouter basename="/Peer-Review-Assignment-ibm-reactjs/">
         <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
